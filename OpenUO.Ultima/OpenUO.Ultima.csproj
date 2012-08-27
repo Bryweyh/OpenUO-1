@@ -48,8 +48,6 @@
     <Compile Include="Adapters\AnimationDataStorageAdapter.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Adapters\ClilocStorageAdapter.cs" />
-    <Compile Include="Adapters\Interfaces\IClilocStorageAdapter.cs" />
     <Compile Include="Adapters\Interfaces\IAnimationDataStorageAdapter.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -81,10 +79,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Animations\AnimationData.cs" />
-    <Compile Include="Clilocs\ClilocLNG.cs" />
-    <Compile Include="Clilocs\ClilocInfo.cs" />
-    <Compile Include="Clilocs\ClilocData.cs" />
-    <Compile Include="Clilocs\ClilocTable.cs" />
     <Compile Include="Factories\AnimationDataFactory.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -94,7 +88,6 @@
     <Compile Include="Factories\ASCIIFontFactory.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Factories\ClilocFactory.cs" />
     <Compile Include="Factories\GumpFactory.cs">
       <SubType>Code</SubType>
     </Compile>

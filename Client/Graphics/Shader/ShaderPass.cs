@@ -31,7 +31,6 @@ namespace Client.Graphics
         {
             Shader = shader;
             Effect = shader.Effect;
-			Handle = passHandle; // TODO: Correct assignment, or reserved for a different handle?
             Context = context;
             Index = index;
 

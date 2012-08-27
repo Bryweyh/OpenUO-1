@@ -50,7 +50,6 @@ namespace Client.Ultima
             _install = config.GetValue<InstallLocation>(ConfigSections.Client, ConfigKeys.InstallLocation);
 
             _camera = new Camera2D();
-			_facets = new List<Facet>();
         }
 
         public void RegisterFacet(int fileIndex, int mapID, int width, int height)
